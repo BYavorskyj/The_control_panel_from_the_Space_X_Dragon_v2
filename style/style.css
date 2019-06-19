@@ -1,3 +1,6 @@
-.header-image {
+.img-fluid {
     width: 100%;
+}
+div {
+    border: #9fcdff solid thin;
 }
