@@ -1,6 +1,6 @@
 .img-fluid {
     width: 100%;
 }
-div {
+div, td {
     border: #9fcdff solid thin;
 }
