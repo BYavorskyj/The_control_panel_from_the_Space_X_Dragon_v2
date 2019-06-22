@@ -1,6 +1,68 @@
 .img-fluid {
     width: 100%;
 }
-div, td {
-    border: #9fcdff solid thin;
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header*/
+.brend-gradient {
+    background: #7E96BB;
+    background: -moz-linear-gradient(top, #7E96BB 0%, #546E8B 100%);
+    background: -webkit-linear-gradient(top, #7E96BB 0%, #546E8B 100%);
+    background: linear-gradient(to bottom, #7E96BB 0%, #546E8B 100%);
+    color: #F1FEFE;
+    border-color: #6E8CAE #5D7695 #5D7695 #6E8CAE;
+    border-width: 3px;
+    border-style: solid;
+}
+.brend-gradient.modificator {
+    background: -moz-linear-gradient(bottom, #7E96BB 0%, #6885A5 100%);
+    background: -webkit-linear-gradient(bottom, #7E96BB 0%, #6885A5 100%);
+    background: linear-gradient(to top, #7E96BB 0%, #6885A5 100%);
+}
+
+.brend-gradient.alarms {
+    background: -moz-linear-gradient(bottom, #7E96BB 0%, #546E8B 100%);
+    background: -webkit-linear-gradient(bottom, #7E96BB 0%, #546E8B 100%);
+    background: linear-gradient(to top, #627E9C 0%, #546E8B 100%);
+    color: #C8EEF1;
+}
+
+.brend-gradient.modificator-color {
+    background:#98B5D3 ;
+}
+
+.header .row > div {
+    padding-right: 80px;
+}
+
+.header .counter {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header .arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .fa, .header .counter span {
+    color: #A2EDF2;
+}
+.header .fa {
+    font-size: 30px;
+}
+
+.big-counter {
+    font-size: 60px;
+    font-weight: 300;
 }

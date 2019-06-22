@@ -5,38 +5,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/style.css">
+
 
     <title>Dragon V2 User Interface</title>
 </head>
 <body>
 
 
-<div class="container-fluid">
+<div class="container-fluid header">
     <div class="row">
-        <div class="col ">Grew <br> DRAGON</div>
-        <div class="col ">Perigee <p>185.013m</p></div>
-        <div class="col ">Apogee <p>360.304m</p></div>
-        <div class="col ">Relative Altitude <p>50,948m</p><span>&#11015;</span></div>
-        <div class="col ">Range to ISS <p>625,713m</p><span>&#11015;</span></div>
+        <div class="brend-gradient modificator-color col-md-12 col-lg">
+            <div class="title">Grew</div>
+            <div class="counter">DRAGON</div>
+        </div>
+        <div class="brend-gradient col-md-6 col-lg">
+            <div class="title">Perigee</div>
+            <div class="counter">185.013 <span>m</span></div>
+            <span class="arrow"><i class="fa fa-minus"></i></span>
+
+        </div>
+        <div class="brend-gradient col-md-6 col-lg">
+            <div class="title">Apogee</div>
+            <div class="counter">360.304 <span>m</span></div>
+            <span class="arrow"><i class="fa fa-minus"></i></span>
+        </div>
+        <div class="brend-gradient col-md-6 col-lg">
+            <div class="title">Relative Altitude</div>
+            <div class="counter">50,948 <span>m</span></div>
+            <span class="arrow"><i class="fa fa-arrow-down"></i></span>
+        </div>
+        <div class="brend-gradient col-md-6 col-lg">
+            <div class="title">Range to ISS</div>
+            <div class="counter">625,713 <span>m</span></div>
+            <span class="arrow"><i class="fa fa-arrow-down"></i></span>
+        </div>
     </div>
 </div>
 <a href="./main.html"> <img src="./images/space.jpg" class="img-fluid" alt="Responsive image"></a>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-4 ">Day 131 13:46:11</div>
-        <div class="col "><img src="./images/3.png" class="img-fluid" alt="GRAPFIC"></div>
-        <div class="col "> Next Burn <span>Enabled</span>
+        <div class="col-4 brend-gradient">
+            <div class="title">Day 131</div>
+            <div class="big-counter">13:46:11</div>
+        </div>
+        <div class="col brend-gradient modificator"><img src="./images/axis.png" class="img-fluid" alt="GRAPFIC"></div>
+        <div class="col brend-gradient modificator"> Next Burn <span>Enabled</span>
             <p></p></div>
-        <div class="col ">Target <p>33,5 m/s</p></div>
+        <div class="col brend-gradient modificator">Target <p>33,5 m/s</p></div>
     </div>
 </div>
-<div class="container-fluid">
-    <span>0 alarms</span> <span class="text-right">ALL SYSTEMS NOMINAL</span>
-    <p class="text-right"> &#10004;</p>
+<div class="container-fluid brend-gradient alarms">
+    <div class="row">
+        <div class="col">
+            <div class="text-md-left fixed-left"><span>0</span> alarms</div>
+        </div>
+        <div class="col">
+            <div class="text-md-right fixed-right">ALL SYSTEMS NOMINAL</div>
+        </div>
+        <div class="col-1">
+            <div class="text-right"> &#10004;</div>
+        </div>
+    </div>
 </div>
 <div class="container-fluid">
     <div class="row">
