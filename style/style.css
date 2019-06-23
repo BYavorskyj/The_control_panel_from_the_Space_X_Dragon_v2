@@ -103,11 +103,30 @@ body {
     margin-bottom: -10px;
 }
 
+li {
+    list-style-type: none;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #BACDDA;
+    font-size: 30px;
+}
+
 
 .table {
 
 }
 
+.footers-one {
+    background-color: #A2EDF2;
+}
+
+.footers-two {
+    background-color: #83A0C6;
+}
 
 /*second page*/
 
