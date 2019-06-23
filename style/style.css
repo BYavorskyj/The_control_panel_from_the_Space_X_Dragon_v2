@@ -30,6 +30,8 @@ body {
     background: -webkit-linear-gradient(bottom, #56718D 0%, #8198BE 100%);
     background: linear-gradient(to top, #56718D 0%, #8198BE 100%);
     color: #C8EEF1;
+    height: 80px;
+    font-size: 40px;
 }
 
 .brend-gradient.modificator-color {
