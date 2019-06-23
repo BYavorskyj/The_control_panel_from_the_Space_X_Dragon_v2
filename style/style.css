@@ -18,6 +18,7 @@ body {
     border-width: 3px;
     border-style: solid;
 }
+
 .brend-gradient.modificator {
     background: -moz-linear-gradient(bottom, #7E96BB 0%, #6885A5 100%);
     background: -webkit-linear-gradient(bottom, #7E96BB 0%, #6885A5 100%);
@@ -25,21 +26,32 @@ body {
 }
 
 .brend-gradient.alarms {
+    background: -moz-linear-gradient(bottom, #56718D 0%, #8198BE 100%);
+    background: -webkit-linear-gradient(bottom, #56718D 0%, #8198BE 100%);
+    background: linear-gradient(to top, #56718D 0%, #8198BE 100%);
+    color: #C8EEF1;
+}
+
+.brend-gradient.modificator-color {
+    background: #98B5D3;
+}
+
+.brend-gradient.modific-chart-fouth {
     background: -moz-linear-gradient(bottom, #7E96BB 0%, #546E8B 100%);
     background: -webkit-linear-gradient(bottom, #7E96BB 0%, #546E8B 100%);
     background: linear-gradient(to top, #627E9C 0%, #546E8B 100%);
     color: #C8EEF1;
 }
 
-.brend-gradient.modificator-color {
-    background:#98B5D3 ;
+#border-bottom-color div {
+    border-bottom-color: #536C8B;
 }
 
 .header .row > div {
     padding-right: 80px;
 }
 
-.header .counter {
+.header .counter, .footer {
     font-size: 32px;
     font-weight: 600;
 }
@@ -55,14 +67,35 @@ body {
     align-items: center;
 }
 
-.header .fa, .header .counter span {
+.header .fa, .header .counter span, .footer {
     color: #A2EDF2;
 }
-.header .fa {
+
+.header .fa, {
     font-size: 30px;
 }
 
 .big-counter {
     font-size: 60px;
     font-weight: 300;
+}
+
+.life-support {
+    font-size: 36px;
+}
+
+.valves {
+    background-color: #546D8B;
+    color: #F0FDFE;
+
+}
+
+.title-footer {
+    color: #F0FDFE;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
