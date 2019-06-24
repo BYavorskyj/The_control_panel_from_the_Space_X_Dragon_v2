@@ -163,6 +163,10 @@ li {
     font-size: 36px;
 }
 
+div.title.more {
+    color:#9BB2B2;
+}
+
 .valves {
     background-color: #546D8B;
     color: #F0FDFE;
